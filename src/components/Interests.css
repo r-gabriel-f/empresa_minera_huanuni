@@ -1,0 +1,89 @@
+.interests-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.container-one {
+  flex: 0 0 25%;
+}
+
+.container-two {
+  flex: 0 0 25%;
+}
+
+.one-1,
+.one-2,
+.one-3,
+.one-4,
+.one-5 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.one-3,
+.one-5 p {
+  text-align: justify;
+}
+
+.two-1,
+.two-2,
+.two-3,
+.two-4,
+.two-5,
+.two-6 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.two-2 #ban {
+  width: 100%;
+  height: 100px;
+}
+.two-2,
+.two-3,
+.two-5,
+.two-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.two-2 h4,
+.two-3 h4,
+.two-5 h4,
+.two-6 h4 {
+  text-align: left;
+}
+
+.two-2 img,
+.two-3 img,
+.two-5 img,
+.two-6 img {
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.two-4-img {
+  display: flex;
+  justify-content: center;
+}
+
+.two-4-img img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px; /* Espacio entre las imágenes */
+}
+
+#sep{
+    margin-top: 20px;
+}
+#sep li {
+    margin-bottom: 10px;
+  }
+  
+  #sep li:hover {
+    cursor: pointer;
+
+  }
+  
