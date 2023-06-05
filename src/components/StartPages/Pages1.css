@@ -1,0 +1,33 @@
+.start-container-1 {
+    display: flex;
+  }
+  
+  .primery-container-1 {
+    margin-top: 50px;
+    width: 60%;
+  }
+  
+  .secundary-container-1 {
+    width: 40%;
+  }
+  .section-one-1{
+    margin-left: 20px;
+    margin-right: 30px;
+  }
+  .section-one-1 h4, p{
+    text-align: justify;
+  }
+  .container-img-jf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#imjf{
+    width: 350px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+  

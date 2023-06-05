@@ -1,17 +1,25 @@
 import React from 'react';
 import '../components/NavBar.css'
+import { Link, useNavigate } from 'react-router-dom';
+
 const Navbar = () => {
+  const navigate = useNavigate();
+
+  const handleInicioClick = () => {
+    navigate('/');
+  };
   return (
-    <nav className="navbar navbar-expand-lg" style={{ backgroundColor: "#C4C8D3"}}>
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{ backgroundColor: "#C4C8D3" }}>
       <div className="container-fluid" style={{ marginLeft: "10px" }}>
         <a className="navbar-brand" href="#">E. M. H.</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{ marginTop: "-10px" }}>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+
+              <Link className="nav-link active" aria-current="page" to="/" onClick={handleInicioClick}>Inicio</Link>
             </li>
             <li className="nav-item dropdown" >
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Institucional</a>
