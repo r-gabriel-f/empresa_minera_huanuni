@@ -1,18 +1,19 @@
 import React from "react";
 import jf from '../../assets/img/54a33e7f98f63.jpg'
 import { Interests } from "../Interests";
+import '../Start.css';
 import "./Pages1.css"
 export const Pages1 = () => {
   return (
-    <div className="start-container-1">
-      <div className="primery-container-1">
-        <div className="section-one-1">
+    <div className="start-container">
+      <div className="primery-container">
+        <div className="section-one">
           <div>
             <h4>INICIO</h4>
           </div>
           <div>
             <h5>COMIBOL TIENE EN MENTE 11 PROYECTOS MINEROS ESTE 2015</h5>
-            <div className="container-img-jf">
+            <div className="container-img">
               <img src={jf} href id="imjf" />
             </div>
 
@@ -42,7 +43,7 @@ export const Pages1 = () => {
           </div>
         </div>
       </div>
-      <div className="secundary-container-1">
+      <div className="secundary-container">
         <Interests></Interests>
       </div>
     </div>

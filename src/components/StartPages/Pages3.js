@@ -1,12 +1,13 @@
 import React from "react";
 import n from "../../assets/img/nacion.jpeg";
 import { Interests } from "../Interests";
+import '../Start.css';
 import "./Pages3.css";
 export const Pages3 = () => {
   return (
-    <div className="start-container-3">
-      <div className="primery-container-3">
-        <div className="section-one-3">
+    <div className="start-container">
+      <div className="primery-container">
+        <div className="section-one">
           <div>
             <h4>INICIO</h4>
           </div>
@@ -14,7 +15,7 @@ export const Pages3 = () => {
             <h5>
               LA NACIONALIZACIÓN SE DEBE A LA LUCHA DEL PROLETARIADO MINERO
             </h5>
-            <div className="container-img-3">
+            <div className="container-img">
               <img src={n} href id="imn" />
             </div>
 
@@ -92,7 +93,7 @@ export const Pages3 = () => {
           </div>
         </div>
       </div>
-      <div className="secundary-container-3">
+      <div className="secundary-container">
         <Interests></Interests>
       </div>
     </div>

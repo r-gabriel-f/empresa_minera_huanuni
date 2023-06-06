@@ -1,18 +1,19 @@
 import React from "react";
 import vm from "../../assets/img/index.jpeg";
 import { Interests } from "../Interests";
+import '../Start.css';
 import "./Pages2.css";
 export const Pages2 = () => {
   return (
-    <div className="start-container-2">
-      <div className="primery-container-2">
-        <div className="section-one-2">
+    <div className="start-container">
+      <div className="primery-container">
+        <div className="section-one">
           <div>
             <h4>INICIO</h4>
           </div>
           <div>
             <h5>VÍCTOR MONTOYA EL GOLPE SANGRIENTO DE TODOS SANTOS</h5>
-            <div className="container-img-2">
+            <div className="container-img">
               <img src={vm} href id="imv" />
             </div>
 
@@ -166,7 +167,7 @@ export const Pages2 = () => {
           </div>
         </div>
       </div>
-      <div className="secundary-container-2">
+      <div className="secundary-container">
         <Interests></Interests>
       </div>
     </div>

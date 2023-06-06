@@ -1,25 +1,23 @@
-import React from 'react'
-import on from "../../assets/img/OrgNuevo.jpg";
-import op from "../../assets/img/org-personal.jpg";
-import '../Start.css'
-import { Interests } from '../Interests';
-
-export const Organigrama = () => {
+import React from "react";
+import { Interests } from "../Interests";
+import ra1 from "../../assets/img/ra1.jpg";
+import ra2 from "../../assets/img/ra2.jpg";
+import "../Start.css";
+export const Contruccion = () => {
   return (
     <div className="start-container">
       <div className="primery-container">
         <div className="section-one">
           <div>
-            <h4>INSTITUCIONAL</h4>
+            <h4>PROYECTOS</h4>
           </div>
           <div>
-            <h5>ORGANIGRAMA</h5>
+            <h5>RAISE BORING</h5>
             <div className="container-img">
-              <img src={on} href id="on" />
+              <img src={ra1} href id="ra1" />
             </div>
-            
             <div className="container-img">
-              <img src={op} href id="op" />
+              <img src={ra2} href id="ra2" />
             </div>
           </div>
         </div>
@@ -28,5 +26,5 @@ export const Organigrama = () => {
         <Interests></Interests>
       </div>
     </div>
-  )
-}
+  );
+};
