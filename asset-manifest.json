@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/empresa_minera_huanuni/static/css/main.430f8af0.css",
-    "main.js": "/empresa_minera_huanuni/static/js/main.5fce23d9.js",
+    "main.js": "/empresa_minera_huanuni/static/js/main.97531af0.js",
     "static/js/787.774eaa79.chunk.js": "/empresa_minera_huanuni/static/js/787.774eaa79.chunk.js",
     "static/media/DSC_0061.jpg": "/empresa_minera_huanuni/static/media/DSC_0061.6e86fed5b3afaf9165f8.jpg",
     "static/media/escudo-bolivia.png": "/empresa_minera_huanuni/static/media/escudo-bolivia.841fb0c6cc43caac4ccd.png",
@@ -33,11 +33,11 @@
     "static/media/logo.svg": "/empresa_minera_huanuni/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/empresa_minera_huanuni/index.html",
     "main.430f8af0.css.map": "/empresa_minera_huanuni/static/css/main.430f8af0.css.map",
-    "main.5fce23d9.js.map": "/empresa_minera_huanuni/static/js/main.5fce23d9.js.map",
+    "main.97531af0.js.map": "/empresa_minera_huanuni/static/js/main.97531af0.js.map",
     "787.774eaa79.chunk.js.map": "/empresa_minera_huanuni/static/js/787.774eaa79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.430f8af0.css",
-    "static/js/main.5fce23d9.js"
+    "static/js/main.97531af0.js"
   ]
 }
