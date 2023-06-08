@@ -2,7 +2,7 @@ import React from "react";
 import jf from "../../assets/img/HUAN_nevado.jpg";
 import '../Start.css'
 import '../../components/Institucional/HistoriaEmpresa.css';
-import { Interests } from "../Interests";
+import Interests from "../Interests";
 export const HistoriaEmpresa = () => {
   return (
     <div className="start-container">

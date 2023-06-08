@@ -1,7 +1,8 @@
 import React from "react";
-import { Interests } from "../Interests";
+
 import "../Start.css";
 import "../../components/Contrataciones/Bienes.css";
+import Interests from "../Interests";
 export const Bienestwo = () => {
   return (
     <div className="start-container">

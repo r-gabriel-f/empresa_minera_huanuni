@@ -1,6 +1,6 @@
 import React from "react";
 import jf from '../../assets/img/54a33e7f98f63.jpg'
-import { Interests } from "../Interests";
+import Interests from "../Interests";
 import '../Start.css';
 import "./Pages1.css"
 export const Pages1 = () => {

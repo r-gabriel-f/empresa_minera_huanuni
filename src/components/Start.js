@@ -2,7 +2,7 @@ import React from "react";
 import bol from "../assets/img/DSC_0061.jpg";
 import boli from "../assets/img/nuevoingenio1.jpg";
 
-import { Interests } from "./Interests";
+import Interests from "./Interests";
 import "../components/Start.css";
 import { useNavigate } from "react-router-dom";
 

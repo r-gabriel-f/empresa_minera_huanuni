@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Start.css";
-import { Interests } from "../Interests";
+import Interests from '../Interests';
 import transfe from "../../assets/img/transparencia.jpg";
 import '../Tranfe.css';
 

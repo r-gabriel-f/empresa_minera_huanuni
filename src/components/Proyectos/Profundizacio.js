@@ -1,5 +1,5 @@
 import React from "react";
-import { Interests } from "../Interests";
+import Interests from "../Interests";
 
 import pro1 from "../../assets/img/proy2.jpg";
 import pro2 from "../../assets/img/proy1.jpg";

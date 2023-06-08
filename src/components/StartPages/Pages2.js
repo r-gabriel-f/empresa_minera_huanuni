@@ -1,6 +1,6 @@
 import React from "react";
 import vm from "../../assets/img/index.jpeg";
-import { Interests } from "../Interests";
+import Interests from "../Interests";
 import '../Start.css';
 import "./Pages2.css";
 export const Pages2 = () => {

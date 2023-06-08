@@ -4,7 +4,7 @@ import op from "../../assets/img/org-personal.jpg";
 import '../Start.css';
 import '../../components/Institucional/Organigrama.css';
 
-import { Interests } from '../Interests';
+import Interests from '../Interests';
 
 export const Organigrama = () => {
   return (

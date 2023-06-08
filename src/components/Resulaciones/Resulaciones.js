@@ -1,5 +1,5 @@
 import React from "react";
-import { Interests } from "../Interests";
+import Interests from "../Interests";
 import transfe from "../../assets/img/transparencia.jpg";
 import '../Tranfe.css';
 

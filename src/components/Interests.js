@@ -11,8 +11,29 @@ import ic2 from "../assets/img/youtube.png";
 import ic3 from "../assets/img/facebook.png";
 import bandera from "../assets/img/Bandera_Bolivia.png";
 import moneda from "../assets/img/moneda1.jpg";
+import { Link, useNavigate } from "react-router-dom";
 
-export const Interests = () => {
+const Interests = () => {
+  const navigate = useNavigate();
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
+  //contrataciones
+  const handlebienesClickb1 = () => {
+    navigate("/contrataciones/bienes-servicio1");
+  };
+  const handlebienesClickb2 = () => {
+    navigate("/contrataciones/bienes-servicio2");
+  };
+  const handlemarcoClick = () => {
+    navigate("/marco-legal");
+    
+  };
+  const handleintitucionClickMV = () => {
+    navigate("/institucional/mision-vision");
+    
+  };
+
   return (
     <div className="interests-container">
       <div className="container-one">
@@ -23,8 +44,16 @@ export const Interests = () => {
             <li>Centro de Investicacion Minero Metalurgico</li>
             <li>Cerro Rico de Potosi</li>
             <li>Empresa Minera Catavi</li>
-            <li>Empresa Minera Colquiri</li>
-            <li>Empresa Minera Corocoro</li>
+            <li>
+              <a href="https://colquiri.gob.bo/" target="_blank">
+                Empresa Minera Colquiri
+              </a>
+            </li>
+            <li>
+              <a href="http://www.mineracorocoro.com/" target="_blank">
+                Empresa Minera Corocoro
+              </a>
+            </li>
           </ul>
         </div>
         <div className="one-2">
@@ -55,9 +84,10 @@ export const Interests = () => {
         <div className="one-4">
           <h4>Ultimas Noticias</h4>
           <ul id="sep">
-            <li>Pagina 1 - Gestion 2023</li>
-            <li>Contrataciones Directas</li>
-            <li>Reglamento</li>
+            <li onClick={handlebienesClickb1}>Pagina 1 - Gestion 2023</li>
+            <li onClick={handlebienesClickb2}>Contrataciones Directas</li>
+            <li onClick={handlemarcoClick}>Reglamento</li>
+
           </ul>
         </div>
         <div className="one-5">
@@ -73,9 +103,10 @@ export const Interests = () => {
         <div className="two-1">
           <h4>Enlaces Interes</h4>
           <ul id="sep">
-            <li>Gestion</li>
-            <li>Proyectos Institucionales</li>
-            <li>Publicaciones</li>
+          <li onClick={handleintitucionClickMV}>Gestion</li>
+            <li onClick={handleintitucionClickMV}>Proyectos Institucionales</li>
+            <li onClick={handleintitucionClickMV}>Publicaciones</li>
+            
           </ul>
         </div>
         <div className="two-2">
@@ -109,3 +140,5 @@ export const Interests = () => {
     </div>
   );
 };
+
+export default Interests;

@@ -2,7 +2,7 @@ import React from "react";
 import jf from "../../assets/img/GERENTE.jpg";
 import '../Start.css'
 import '../../components/Institucional/MisionVision.css';
-import { Interests } from "../Interests";
+import Interests from "../Interests";
 export const MisionVision = () => {
   return (
     
