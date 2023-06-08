@@ -35,6 +35,7 @@ function App() {
     <Router>
       <Navbar />
       <Head />
+      <Start/>
       <Routes>
         <Route path="/" element={<Start />} />
         <Route path="/inicio/pages1" element={<Pages1 />} />
