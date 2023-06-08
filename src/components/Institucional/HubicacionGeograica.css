@@ -1,0 +1,15 @@
+#ub1,
+#ub2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 550px;
+  height: 350px;
+}
+@media only screen and (max-width: 768px) {
+  #ub1,
+  #ub2 {
+    width: 300px;
+    height: 200px;
+  }
+}

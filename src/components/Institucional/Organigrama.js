@@ -1,7 +1,9 @@
 import React from 'react'
 import on from "../../assets/img/OrgNuevo.jpg";
 import op from "../../assets/img/org-personal.jpg";
-import '../Start.css'
+import '../Start.css';
+import '../../components/Institucional/Organigrama.css';
+
 import { Interests } from '../Interests';
 
 export const Organigrama = () => {

@@ -2,6 +2,7 @@ table {
     margin-top: 30px;
   width: 100%;
   border-collapse: collapse;
+  text-align: center;
 }
 
 th,
@@ -24,4 +25,35 @@ tr:nth-child(even) td {
 }
 #center{
     text-align: center;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+  /* Asegurarse de que la tabla ocupe todo el ancho disponible */
+  table {
+    width: 100%;
+  }
+  
+  /* Ocultar la etiqueta de encabezado y mostrar los datos en columnas */
+  thead {
+    display: none;
+  }
+  
+  /* Mostrar cada fila como un bloque y agregar un margen inferior */
+  tbody tr {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para las celdas */
+  td {
+    display: block;
+    text-align: justify;
+    font-weight: bold;
+  }
+  
+  /* Agregar estilos para los números de fila */
+  td:first-child {
+    font-weight: normal;
+  }
 }

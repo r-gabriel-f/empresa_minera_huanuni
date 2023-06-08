@@ -1,73 +1,113 @@
-import React from "react";
-import "../components/NavBar.css";
+import { React, useState } from "react";
+
 import { Link, useNavigate } from "react-router-dom";
 
+import './Navbar.css'
+
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
   const navigate = useNavigate();
   //inicio
   const handleInicioClick = () => {
     navigate("/");
+    setIsMenuOpen(false);
+
   };
 
   //institucional
   const handleintitucionClickMV = () => {
     navigate("/institucional/mision-vision");
+    setIsMenuOpen(false);
   };
   const handleintitucionClickHE = () => {
     navigate("/institucional/historia-empresa");
+    setIsMenuOpen(false);
+
   };
   const handleintitucionClickAC = () => {
     navigate("/institucional/actividad-principal-mineralogia");
+    setIsMenuOpen(false);
+
   };
   const handleintitucionClickOR = () => {
     navigate("/institucional/organigrama");
+    setIsMenuOpen(false);
+
   };
   const handleintitucionClickHU = () => {
     navigate(
       "/institucional/hubicacion-geografico-infografica-distancia-altitud"
+      
     );
+    setIsMenuOpen(false);
+
   };
   const handleintitucionClickPO = () => {
     navigate("/institucional/potencial-minerologico");
+    setIsMenuOpen(false);
+
   };
   const handleintitucionClickRE = () => {
     navigate("/institucional/resumen-tecnico");
+    setIsMenuOpen(false);
+
   };
 
   //proyectos
   const handleproyectosClickP = () => {
     navigate("/proyectos/profundizacion-rampa-principal");
+    setIsMenuOpen(false);
+
   };
   const handleproyectosClickD = () => {
     navigate("/proyectos/dique-de-colas-willa-khollu");
+    setIsMenuOpen(false);
+
   };
   const handleproyectosClickC = () => {
     navigate("/proyectos/contruccion-chimeneas-de-ventilzacion");
+    setIsMenuOpen(false);
+
   };
 
   //transparencia
   const handletransparenciaClick = () => {
     navigate("/transperencia");
-  };
+    setIsMenuOpen(false);
 
+  };
 
   //contrataciones
   const handlebienesClickb1 = () => {
     navigate("/contrataciones/bienes-servicio1");
+    setIsMenuOpen(false);
+
   };
   const handlebienesClickb2 = () => {
     navigate("/contrataciones/bienes-servicio2");
-  };
+    setIsMenuOpen(false);
 
+  };
 
   //marco legal
   const handlemarcoClick = () => {
     navigate("/marco-legal");
+    setIsMenuOpen(false);
+
   };
 
   //resuluciones
   const handleResolucionesClick = () => {
     navigate("/resoluciones");
+    setIsMenuOpen(false);
+
   };
 
   return (
@@ -79,19 +119,13 @@ const Navbar = () => {
         <a className="navbar-brand" href="#">
           E. M. H.
         </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+
+        <button className="navbar-toggler" type="button" onClick={toggleMenu}>
           <span className="navbar-toggler-icon"></span>
         </button>
+
         <div
-          className="collapse navbar-collapse"
+          className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`}
           id="navbarSupportedContent"
           style={{ marginTop: "-10px" }}
         >
@@ -244,14 +278,20 @@ const Navbar = () => {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <Link className="dropdown-item" to="/contrataciones/bienes-servicio1"
-                    onClick={handlebienesClickb1}>
+                  <Link
+                    className="dropdown-item"
+                    to="/contrataciones/bienes-servicio1"
+                    onClick={handlebienesClickb1}
+                  >
                     Bienes - Servicios 1
                   </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" to="/contrataciones/bienes-servicio2"
-                    onClick={handlebienesClickb2}>
+                  <a
+                    className="dropdown-item"
+                    to="/contrataciones/bienes-servicio2"
+                    onClick={handlebienesClickb2}
+                  >
                     Bienes - Servicios 2
                   </a>
                 </li>
@@ -277,7 +317,6 @@ const Navbar = () => {
                 Resolucióne
               </Link>
             </li>
-            
           </ul>
         </div>
       </div>

@@ -1,7 +1,10 @@
 import React from "react";
 import azul from "../../assets/img/19.jpg";
 import are from "../../assets/img/21.jpg";
-import '../Start.css'
+import '../Start.css';
+import '../../components/Institucional/ActividadPrincipalMineralogia.css';
+
+
 import { Interests } from "../Interests";
 export const ActividadPrincipalMineralogia = () => {
   return (

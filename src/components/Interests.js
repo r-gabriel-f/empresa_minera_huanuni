@@ -29,13 +29,17 @@ export const Interests = () => {
         </div>
         <div className="one-2">
           <h4>Videos Relacionados</h4>
-          <ReactPlayer id="sep"
-            width={250}
-            height={150}
-            className="video"
-            url="https://www.youtube.com/watch?v=dy__PaAWKPk&t=1s"
-            controls
-          />
+
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <ReactPlayer
+              id="sep"
+              width={250}
+              height={150}
+              className="video"
+              url="https://www.youtube.com/watch?v=dy__PaAWKPk&t=1s"
+              controls
+            />
+          </div>
         </div>
         <div className="one-3">
           <h4>Cursos y Talleres</h4>
@@ -76,14 +80,14 @@ export const Interests = () => {
         </div>
         <div className="two-2">
           <h4>Organizaciones</h4>
-          <img src={i1} href id="sep"/>
+          <img src={i1} href id="sep" />
           <img src={i2} href />
           <img src={i3} href />
-          <img src={i4} href id="ban"/>
+          <img src={i4} href id="ban" />
         </div>
         <div className="two-3">
           <h4>Miniterios</h4>
-          <img src={i5} href id="sep"/>
+          <img src={i5} href id="sep" />
         </div>
         <div className="two-4">
           <h4>Redes Sociales</h4>
@@ -95,11 +99,11 @@ export const Interests = () => {
         </div>
         <div className="two-5">
           <h4>Marca Pais</h4>
-          <img src={bandera} href id="sep"/>
+          <img src={bandera} href id="sep" />
         </div>
         <div className="two-6">
           <h4>Moneda de Huanuni</h4>
-          <img src={moneda} href id="sep"/>
+          <img src={moneda} href id="sep" />
         </div>
       </div>
     </div>

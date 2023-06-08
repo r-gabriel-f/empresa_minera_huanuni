@@ -1,0 +1,14 @@
+.dropdown-item {
+  white-space: normal;
+
+}
+
+
+@media (max-width: 768px) {
+  .dropdown-item {
+    white-space: normal !important;
+  max-width: 100% !important;
+    
+  }
+}
+

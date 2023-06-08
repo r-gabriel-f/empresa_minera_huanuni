@@ -4,6 +4,9 @@ import { Interests } from "../Interests";
 import pro1 from "../../assets/img/proy2.jpg";
 import pro2 from "../../assets/img/proy1.jpg";
 import "../Start.css";
+import '../../components/Proyectos/Profundizacio.css';
+
+
 export const Profundizacio = () => {
   return (
     <div className="start-container">

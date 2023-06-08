@@ -1,6 +1,8 @@
 import React from "react";
 import { Interests } from "../Interests";
 import transfe from "../../assets/img/transparencia.jpg";
+import '../Tranfe.css';
+
 export const Resulaciones = () => {
   return (
     <div className="start-container">

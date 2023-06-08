@@ -1,0 +1,15 @@
+#imgazul,
+#imgarena {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 350px;
+  height: 250px;
+}
+@media only screen and (max-width: 768px) {
+  #imgazul,
+  #imgarena {
+    width: 250px;
+    height: 200px;
+  }
+}

@@ -3,6 +3,8 @@ import ban from "../../assets/img/baner produccion.jpg";
 import pro from "../../assets/img/produccion 2018.jpg";
 import '../Start.css'
 import { Interests } from '../Interests';
+import '../../components/Institucional/ResumenTecnico.css';
+
 
 export const ResumenTecnico = () => {
   return (

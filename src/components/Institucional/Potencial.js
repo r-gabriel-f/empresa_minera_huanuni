@@ -2,6 +2,8 @@ import React from "react";
 import res from "../../assets/img/reservas.jpg";
 import "../Start.css";
 import { Interests } from "../Interests";
+import '../../components/Institucional/Potencial.css';
+
 
 export const Potencial = () => {
   return (

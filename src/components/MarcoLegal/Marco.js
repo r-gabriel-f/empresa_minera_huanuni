@@ -2,6 +2,8 @@ import React from 'react'
 import "../Start.css";
 import { Interests } from "../Interests";
 import transfe from "../../assets/img/transparencia.jpg";
+import '../Tranfe.css';
+
 export const Marco = () => {
   return (
     <div className="start-container">

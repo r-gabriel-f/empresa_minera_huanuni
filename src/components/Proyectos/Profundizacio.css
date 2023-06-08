@@ -1,0 +1,17 @@
+#pro1,
+#pro2{
+    margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 450px;
+  height: 350px;
+
+}
+@media only screen and (max-width: 768px) {
+    #pro1,
+#pro2 {
+      width: 250px;
+      height: 200px;
+    }
+  }
+

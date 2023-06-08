@@ -3,6 +3,8 @@ import ub1 from "../../assets/img/Ubicacion.jpg";
 import ub2 from "../../assets/img/ubicacion2.jpg";
 import '../Start.css'
 import { Interests } from "../Interests";
+import '../../components/Institucional/HubicacionGeograica.css';
+
 
 export const HubicacionGeograica = () => {
   return (

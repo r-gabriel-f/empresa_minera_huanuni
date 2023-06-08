@@ -1,0 +1,15 @@
+#nevado{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 350px;
+    height: 250px;
+}
+@media only screen and (max-width: 768px) {
+    #nevado{
+        
+        width: 250px;
+        height: 150px;
+    }
+   
+  }
