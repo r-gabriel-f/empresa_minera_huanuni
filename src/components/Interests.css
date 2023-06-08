@@ -92,3 +92,71 @@
 .container-two{
   margin-right: 20px;
 }
+
+
+
+/* Media queries para dispositivos pequeños */
+
+@media only screen and (max-width: 768px) {
+  .interests-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 65px;
+  }
+
+  .container-one,
+  .container-two {
+    flex: 100%;
+    margin-right: 0;
+  }
+
+
+  .one-1,
+  .one-2,
+  .one-3,
+  .one-4,
+  .one-5,
+  .two-1,
+  .two-2,
+  .two-3,
+  .two-4,
+  .two-5,
+  .two-6 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* Media queries para dispositivos extra pequeños */
+
+@media only screen and (max-width: 480px) {
+  .interests-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+  .container-one,
+  .container-two {
+    flex: 100%;
+    
+     /* Agregar margen izquierdo */
+  }
+
+
+  .one-1,
+  .one-2,
+  .one-3,
+  .one-4,
+  .one-5,
+  .two-1,
+  .two-2,
+  .two-3,
+  .two-4,
+  .two-5,
+  .two-6 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+ 
+}

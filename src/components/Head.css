@@ -13,7 +13,6 @@
   height: 150px;
 }
 
-
 .head-bolivia,
 .head-nombre,
 .head-comibol {
@@ -26,7 +25,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .head-nombre h2,
@@ -53,4 +51,54 @@
   animation: moveCamera 10s infinite;
 }
 
+/* Media queries para dispositivos pequeños */
+@media only screen and (max-width: 768px) {
+  .head {
+    grid-template-columns: 1fr; /* Cambia a una sola columna */
+    gap: 20px;
+    text-align: center;
+  }
 
+  .head-bolivia img{
+    width: 150px;
+    height: 150px;
+  }
+  .head-comibol img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .head-nombre {
+    margin-top: 20px;
+  }
+
+  .head-imagenes {
+    padding-top: 56.25%; /* Proporción 16:9 (para una imagen de 1280x720) */
+  }
+}
+
+/* Media queries para dispositivos extra pequeños */
+@media only screen and (max-width: 480px) {
+  .head {
+    grid-template-columns: 1fr; /* Cambia a una sola columna */
+    gap: 20px;
+    text-align: center;
+  }
+
+  .head-bolivia img{
+    width: 150px;
+    height: 150px;
+  }
+  .head-comibol img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .head-nombre {
+    margin-top: 20px;
+  }
+
+  .head-imagenes {
+    padding-top: 56.25%; /* Proporción 16:9 (para una imagen de 1280x720) */
+  }
+}

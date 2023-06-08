@@ -30,8 +30,8 @@ export const Interests = () => {
         <div className="one-2">
           <h4>Videos Relacionados</h4>
           <ReactPlayer id="sep"
-            width={450}
-            height={250}
+            width={250}
+            height={150}
             className="video"
             url="https://www.youtube.com/watch?v=dy__PaAWKPk&t=1s"
             controls

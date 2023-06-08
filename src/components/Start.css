@@ -4,9 +4,8 @@
 
 .primery-container {
   margin-top: 30px;
-  margin-right: -40px;
-  width: 80%;
 
+  width: 50%;
 }
 
 .secundary-container {
@@ -39,4 +38,44 @@ li {
 }
 li:hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-img #im1 {
+    width: 250px;
+    height: 150px;
+  }
+  .container-img #im2 {
+    width: 250px;
+    height: 150px;
+  }
+
+  .section-one {
+    margin-left: 2px0;
+    margin-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .start-container {
+    flex-direction: column;
+  }
+
+  .primery-container,
+  .secundary-container {
+    width: 100%;
+    margin-right: 0;
+  }
+  .secundary-container {
+    margin-left: -45px;
+  }
+
+  #im1,
+  #im2 {
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
 }
